@@ -5,6 +5,10 @@ import (
 	"fyne.io/fyne/v2/widget"
 )
 
+type App struct {
+	output *widget.Label
+}
+
 func main() {
 	a := app.New()
 	// every fyne app will have at least one windows
@@ -15,8 +19,13 @@ func main() {
 	// we will put something called container inside window
 	// can also put a widget
 	// set the content of my window
+	//	output,entry,btn := makeUI()
 
 	w.SetContent(widget.NewLabel("Hello Wordl"))
 
 	w.ShowAndRun()
+}
+
+func makeUI(*widget.Label, *widget.Entry, *widget.Button) {
+
 }
