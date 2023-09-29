@@ -28,4 +28,10 @@ func main() {
 
 func makeUI(*widget.Label, *widget.Entry, *widget.Button) {
 
+	//	output := widet.NewLabel("Hello world")
+	//entry := wiget.NewEntry()
+	//btn := widget.NewButton("Enter", func(),{
+
+	//}//)
+
 }
